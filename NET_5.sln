@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Vector3D", "Vector3D", "{FC0AD1FA-CBFA-4B07-BF0B-42CEF47BA624}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vector3D", "Vector3D\Vector3D.csproj", "{592E64E7-F574-4ADE-87B1-ADCB36489FE5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vectors3DTest", "Vectors3DTest\Vectors3DTest.csproj", "{148CCD3B-0C08-4822-96F0-71F5766165B4}"
@@ -24,6 +26,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{592E64E7-F574-4ADE-87B1-ADCB36489FE5} = {FC0AD1FA-CBFA-4B07-BF0B-42CEF47BA624}
+		{148CCD3B-0C08-4822-96F0-71F5766165B4} = {FC0AD1FA-CBFA-4B07-BF0B-42CEF47BA624}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {062C6418-066A-4177-AEE3-2DE0EE26B34E}
