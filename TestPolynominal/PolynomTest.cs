@@ -7,7 +7,7 @@ using static Polynominal.ForKeyValuePairFunction;
 namespace TestPolynominal
 {
 	[TestClass]
-	public class PolynominalTest
+	public class PolynomTest
 	{
 		[TestMethod]
 		public void CalculateTest_CalculateMonomsSum_ResultTrue ( )
